@@ -1,48 +1,19 @@
-# shushilchaurasiya
- Web-resume of Shushil Chaurasiya hosted on Github Pages
+# Shushil Chaurasiya - Web Resume & Personal portfolio
 
+Visit Web-resume of Shushil Chaurasiya at www.shushilchaurasiya.com.np This is fully responsive personal website created usign HTML, CSS and Javascript. 
 
-# vCard - Personal portfolio
+**Disclaimer:** _At the moment, the website is only in preview mode as it is work in progress. Data available on the website may be generic, placeholders, outdated._ **DO NOT USE IT FOR LEGAL PURPOSE.**
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+## Portfolio
+Short preview of my work will be available on my website. However, since the website is static it is very restrictive on how much content can be placed directly over there. I will provide short preview of my work under portfolio items and details will be linked to another webpage on my blog post where I will talk about my work in depth.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
-
-## Demo
-
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
-
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+## Blog
+Visit https://spchaurasiya.hashnode.dev/ for latest blog posts by me. I will try my best to link all the latest blogs on my website as well. However, since the website is static, it may not always have most recent blogs. 
 
 ## Contact
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+Feel free to reach out to me for any feedback or suggestions.
+> E-mail: info@shushilchaurasiya.com.np
 
-## License
-
-This project is **free to use** and does not contains any license.
+### Credits
+_The original author of this template is [codewithsadee](https://github.com/codewithsadee/vcard-personal-portfolio). 
