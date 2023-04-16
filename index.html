@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- #region HEAD -->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shushil Chaurasiya - Resume & Portfolio</title>
 
-    <!--
-      - favicon
-    -->
+    <!--#region favicon-->
     <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
-
-    <!--
-      - custom css link
-    -->
+    <!--#endregion-->
+    <!--#region custom css link-->
     <link rel="stylesheet" href="./assets/css/style.css">
-
-    <!--
-      - google font link
-    -->
+    <!--#endregion-->
+    <!--#region Google font link-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!--#endregion-->
 </head>
+
+<!-- #endregion -->
+
+<!-- #region BODY -->
 
 <body>
 
@@ -139,8 +140,6 @@
 	</aside>
 
 	<!--#endregion-->
-
-
 	<!--#region #main-content-->
 
 	<div class="main-content">
@@ -160,11 +159,7 @@
 		    </li>
 
 		    <li class="navbar-item">
-			<button class="navbar-link" data-nav-link>Portfolio</button>
-		    </li>
-
-		    <li class="navbar-item">
-			<button class="navbar-link" data-nav-link>Blog</button>
+			<button class="navbar-link" onclick="window.location.href='https://spchaurasiya.hashnode.dev/';">Portfolio</button>
 		    </li>
 
 		    <li class="navbar-item">
@@ -175,7 +170,6 @@
 	    </nav>
 
 	    <!--#endregion-->
-
 	    <!--#region #ABOUT-->
 
 	    <article class="about  active" data-page="about">
@@ -207,7 +201,6 @@
 		</section>
 
 		<!--#endregion-->
-
 		<!--#region Service -->
 
 		<section class="service">
@@ -287,7 +280,106 @@
 		</section>
 
 		<!--#endregion-->
+		<!--#region Awards & Recognitions-->
 
+		<section class="testimonials">
+
+		    <h3 class="h3 testimonials-title">Awards & Accolades</h3>
+
+		    <ul class="testimonials-list has-scrollbar">
+			<!-- IEI, Salem Local Chapter, 2018 -->
+			<li class="testimonials-item">
+			    <div class="content-card" data-testimonials-item>
+
+				<figure class="testimonials-avatar-box">
+				    <img src="./assets/images/Awards/small-award-badge-2.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+				</figure>
+
+				<h5 class="h5 testimonials-item-title" data-testimonials-title>Dr. APJ Abdul Kalam Award for Best Engineering College Student</h5>
+
+				<div class="testimonials-text" data-testimonials-text>
+
+				    <p>
+					Received this award on <b>51st Engineer's Day</b> celebration organized by <b>The Institute of Engineers (IEI),
+					    India</b>, Salem Local Center on 15th September, 2018.
+				    </p>
+
+				</div>
+
+			    </div>
+			</li>
+
+			<!-- IEAE, 2018 -->
+			<li class="testimonials-item">
+			    <div class="content-card" data-testimonials-item>
+
+				<figure class="testimonials-avatar-box">
+				    <img src="./assets/images/Awards/small-award-badge-2.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+				</figure>
+
+				<h5 class="h5 testimonials-item-title" data-testimonials-title>Student Project of the Year 2017-18 Award</h5>
+
+				<div class="testimonials-text" data-testimonials-text>
+
+				    <p>
+					Award was given by <b>Institute of Explorign Advances in Engineering (IEAE)</b>, an ISO 9001:2015 Certified Insittute by 
+					Universal Registrars and Accredited by EA-JAS, and the project was indexed in IEAE-DLAP. 
+				    </p>
+
+				</div>
+
+			    </div>
+			</li>
+
+		    </ul>
+
+		</section>
+
+
+		<!--#region #Awards modal-->
+
+		<div class="modal-container" data-modal-container>
+
+		    <div class="overlay" data-overlay></div>
+
+		    <section class="testimonials-modal">
+
+			<button class="modal-close-btn" data-modal-close-btn>
+			    <ion-icon name="close-outline"></ion-icon>
+			</button>
+
+			<div class="modal-img-wrapper">
+			    <figure class="modal-avatar-box">
+				<img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+			    </figure>
+
+			    <img src="./assets/images/icon-quote.svg" alt="quote icon">
+			</div>
+
+			<div class="modal-content">
+
+			    <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+			    <time datetime="2021-06-14">14 June, 2021</time>
+
+			    <div data-modal-text>
+				<p>
+				    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+				    lot of experience
+				    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+				    consectetur adipiscing
+				    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+				</p>
+			    </div>
+
+			</div>
+
+		    </section>
+
+		</div>
+
+		<!--#endregion-->
+		<!--#endregion-->
 		<!--#region Testimonials-->
 
 		<section class="testimonials">
@@ -321,6 +413,7 @@
 				    <p>
 					Keep on going :-)
 				    </p>
+				    <p>Source: <b>Jacobs e3 Annual Review FY 2022 | Continuous Feedback </b></p>
 				</div>
 
 			    </div>
@@ -461,7 +554,6 @@
 
 		<!--#endregion-->
 		<!--#endregion-->
-
 		<!--#region #Clients-->
 
 		<section class="clients">
@@ -515,7 +607,6 @@
 	    </article>
 
 	    <!--#endregion-->
-
 	    <!--#region #RESUME-->
 
 	    <article class="resume" data-page="resume">
@@ -538,80 +629,111 @@
 
 		    <ol class="timeline-list">
 
-			<li class="timeline-item">
+				<li class="timeline-item">
 
-			    <h4 class="h4 timeline-item-title">Jacobs</h4>
+					<h4 class="h4 timeline-item-title">Jacobs | Gurgaon, India</h4>
 
-			    <span>Assistant BIM Engineer | December 2021 - Present</span>
+					<span>Assistant BIM Engineer | December 2021 - Present</span>
 
-			    <p class="timeline-text">
-				<ul class="timeline-text">
-				    <li>
-					- Developed BART (Barriers and Restraints Tool) Civil 3D Tool for A12 and A66 UK National Highways Project that
-					uses RRRAP report to produce a VRS Design (using separate Design Tool) and models the VRS Corridor in C3D saving
-					up to 90% of time to Highways Design Engineers at Jacobs.
-				    </li>
-				    <li>
-					- Developed Multiple Civil 3D APIs for UK Transport Team to simplify BIM Compliance checks as per GG184 and IAN184.
-				    </li>
-				    <li>
-					- Removed ambiguities in existing internal component naming rules by standardizing them and created a few Auto-correct features.
-				    </li>
-				    <li>
-					- Developed Dynamo script for BIM Digital Delivery (BIM-DD) team to cut down up to 90% of manual review of file status for each submission.
-				    </li>
-				    <li>
-					- Automated and standardized multiple document trackers for Noida International Project. E.g., MIDP, DCI, TIDP, etc.
-				    </li>
-				    <li>
-					- Created several Excel based toolkits and templates for internal resource planning for BIM-DD India Team.
-				    </li>
-				    <li>
-					- Mentored an Intern to create Digital Twin model for a Coffee cup.
-				    </li>
-				    <li>
-					- Guided and trained colleagues to help them learn about APIs and Automation processes.
-				    </li>
-				    <li>
-					- Got celebrated with Impact Bonus for innovation in automation.
-				    </li>
-				</ul>
-			    </p>
-			</li>
+					<p class="timeline-text">
+						<ul class="timeline-text">
+							<li>
+								- Developed BART (Barriers and Restraints Tool) Civil 3D Tool for A12 and A66 UK National Highways Project that
+								uses RRRAP report to produce a VRS Design (using separate Design Tool) and models the VRS Corridor in C3D saving
+								up to 90% of time to Highways Design Engineers at Jacobs.
+							</li>
+							<li>
+								- Developed Multiple Civil 3D APIs for UK Transport Team to simplify BIM Compliance checks as per GG184 and IAN184.
+							</li>
+							<li>
+								- Removed ambiguities in existing internal component naming rules by standardizing them and created a few Auto-correct features.
+							</li>
+							<li>
+								- Developed Dynamo script for BIM Digital Delivery (BIM-DD) team to cut down up to 90% of manual review of file status for each submission.
+							</li>
+							<li>
+								- Automated and standardized multiple document trackers for Noida International Project. E.g., MIDP, DCI, TIDP, etc.
+							</li>
+							<li>
+								- Created several Excel based toolkits and templates for internal resource planning for BIM-DD India Team.
+							</li>
+							<li>
+								- Mentored an Intern to create Digital Twin model for a Coffee cup.
+							</li>
+							<li>
+								- Guided and trained colleagues to help them learn about APIs and Automation processes.
+							</li>
+							<li>
+								- Got celebrated with Impact Bonus for innovation in automation.
+							</li>
+						</ul>
+					</p>
+				</li>
 
-			<li class="timeline-item">
+				<li class="timeline-item">
 
-			    <h4 class="h4 timeline-item-title">New york academy of art</h4>
+					<h4 class="h4 timeline-item-title">Entegra Sources Pvt. Ltd. | Kathmandu, Nepal</h4>
 
-			    <span>2006 — 2007</span>
+					<span>Structural Designer | July - December 2021</span>
 
-			    <p class="timeline-text">
-				Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-				omnis..
-			    </p>
+					<p class="timeline-text">
+						<ul class="timeline-text">
+							<li>
+								- Planned, analyzed and designed several residential buildings for several municipalities ranging from 2 to 5 stories.
+							</li>
+							<li>
+								- Oversaw Engineering reports and detailed drawings prepared by the design team.
+							</li>
+							<li>
+								- Developed multiple templates for montly reporting and later automated that to keep track of resources within internal team.
+							</li>
+							<li>
+								- Trained and guided several new hires/fresh graduates to help them get started with design tools and prevailing design codebooks.
+							</li>
+						</ul>
+					</p>
 
-			</li>
+				</li>
 
-			<li class="timeline-item">
+				<li class="timeline-item">
 
-			    <h4 class="h4 timeline-item-title">High school of art and design</h4>
+					<h4 class="h4 timeline-item-title">Trainings / Internships</h4>
 
-			    <span>2002 — 2004</span>
+					<span>Longjian-Ashish Construction JV | Janakpur, Nepal | May - July, 2018</span>
+					<span>Civil Engineer Intern | 6-Lane Road and Drainage Upgrading and Improvement Project, JNP-DLK</span>
 
-			    <p class="timeline-text">
-				Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-				magni dolores
-				eos.
-			    </p>
+					<p class="timeline-text">
+						<ul class="timeline-text">
+							<li>
+								- Completed C-section and L-section of 7 km Highway for Earthworks cut-fill estimation.
+							</li>
+							<li>
+								- Supplied and checked the levels for drainage bed and cover.
+							</li>
+							<li>
+								- Estimated weekly BBS for the drainage construction on site and reported weekly BOQ in the site office.
+							</li>
+						</ul>
+					</p>
 
-			</li>
+					<span>Swachchhanda Nirman Sewa Pvt. Ltd. | Janakpur, Nepal | May - June, 2017</span>
+					<span>Trainee Engineer | 2-Lane Balwa-Janakpur DBST Road Construction Project</span>
+
+					<p class="timeline-text">
+						<ul class="timeline-text">
+							<li>
+								- Received training on basics of Double Bituminous Surface Treatment (DBST) Road Construction Procedure.
+							</li>
+						</ul>
+					</p>
+
+				</li>
 
 		    </ol>
 
 		</section>
 
 		<!--#endregion-->
-
 		<!--#region Education-->
 
 		<section class="timeline">
@@ -686,45 +808,22 @@
 		</section>
 
 		<!--#endregion -->
-
 		<!--#region Skills-->
 
 		<section class="skill">
 
 		    <h3 class="h3 skills-title">My skills</h3>
 
+		    <!-- #region CADD & BIM Tools -->
+
+		    <h4 class="h4 skills-title">CADD & BIM Tools</h4>
+
 		    <ul class="skills-list content-card">
 
 			<li class="skills-item">
 
 			    <div class="title-wrapper">
-				<h5 class="h5">Web design</h5>
-				<data value="80">80%</data>
-			    </div>
-
-			    <div class="skill-progress-bg">
-				<div class="skill-progress-fill" style="width: 80%;"></div>
-			    </div>
-
-			</li>
-
-			<li class="skills-item">
-
-			    <div class="title-wrapper">
-				<h5 class="h5">Graphic design</h5>
-				<data value="70">70%</data>
-			    </div>
-
-			    <div class="skill-progress-bg">
-				<div class="skill-progress-fill" style="width: 70%;"></div>
-			    </div>
-
-			</li>
-
-			<li class="skills-item">
-
-			    <div class="title-wrapper">
-				<h5 class="h5">Branding</h5>
+				<h5 class="h5">AutoCAD</h5>
 				<data value="90">90%</data>
 			    </div>
 
@@ -737,7 +836,94 @@
 			<li class="skills-item">
 
 			    <div class="title-wrapper">
-				<h5 class="h5">WordPress</h5>
+				<h5 class="h5">Civil 3D</h5>
+				<data value="50">50%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 50%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Revit</h5>
+				<data value="40">40%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 40%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Navisworks</h5>
+				<data value="30">30%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 30%;"></div>
+			    </div>
+
+			</li>
+
+		    </ul>
+
+		    <!-- #endregion -->
+		    <!-- #region Programming & Automation -->
+
+		    <h4 class="h4 skills-title">Programming & Automation</h4>
+
+		    <ul class="skills-list content-card">
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">C# & .NET Framework</h5>
+				<data value="80">80%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 80%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Excel Macros & Excel VBA</h5>
+				<data value="85">85%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 85%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Dynamo</h5>
+				<data value="60">60%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 60%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Python</h5>
 				<data value="50">50%</data>
 			    </div>
 
@@ -749,6 +935,128 @@
 
 		    </ul>
 
+		    <!-- #endregion -->
+		    <!-- #region FEM & Design Tools -->
+
+		    <h4 class="h4 skills-title">FEM & Design Tools</h4>
+
+		    <ul class="skills-list content-card">
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">ETABS</h5>
+				<data value="85">85%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 85%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">SAP 2000</h5>
+				<data value="70">70%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 70%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">STAAD.Pro</h5>
+				<data value="50">50%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 50%;"></div>
+			    </div>
+
+			</li>
+
+		    </ul>
+
+		    <!-- #endregion -->
+		    <!-- #region CDE(s) -->
+
+		    <h4 class="h4 skills-title">Common Data Environments (CDE)</h4>
+
+		    <ul class="skills-list content-card">
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Oracle Aconex</h5>
+				<data value="75">75%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 75%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Bently ProjectWise</h5>
+				<data value="65">65%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 65%;"></div>
+			    </div>
+
+			</li>
+
+		    </ul>
+
+		    <!-- #endregion -->
+
+		    <!-- #region Low Code / No-Code Platforms -->
+
+		    <h4 class="h4 skills-title">Low Code / No-Code Platforms</h4>
+
+		    <ul class="skills-list content-card">
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Microsoft Power Apps</h5>
+				<data value="70">70%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 70%;"></div>
+			    </div>
+
+			</li>
+
+			<li class="skills-item">
+
+			    <div class="title-wrapper">
+				<h5 class="h5">Miscosoft Power Automate</h5>
+				<data value="65">65%</data>
+			    </div>
+
+			    <div class="skill-progress-bg">
+				<div class="skill-progress-fill" style="width: 65%;"></div>
+			    </div>
+
+			</li>
+
+		    </ul>
+
+		    <!-- #endregion -->
+
+
 		</section>
 
 		<!--#endregion-->
@@ -756,431 +1064,241 @@
 	    </article>
 
 	    <!--#endregion-->
-
 	    <!--#region #PORTFOLIO -->
 
 	    <article class="portfolio" data-page="portfolio">
 
-		<header>
-		    <h2 class="h2 article-title">Portfolio</h2>
-		</header>
-
-		<section class="projects">
-
-		    <ul class="filter-list">
-
-			<li class="filter-item">
-			    <button class="active" data-filter-btn>All</button>
-			</li>
-
-			<li class="filter-item">
-			    <button data-filter-btn>Web design</button>
-			</li>
-
-			<li class="filter-item">
-			    <button data-filter-btn>Applications</button>
-			</li>
-
-			<li class="filter-item">
-			    <button data-filter-btn>Web development</button>
-			</li>
-
-		    </ul>
-
-		    <div class="filter-select-box">
-
-			<button class="filter-select" data-select>
-
-			    <div class="select-value" data-selecct-value>Select category</div>
-
-			    <div class="select-icon">
-				<ion-icon name="chevron-down"></ion-icon>
-			    </div>
-
-			</button>
-
-			<ul class="select-list">
-
-			    <li class="select-item">
-				<button data-select-item>All</button>
-			    </li>
-
-			    <li class="select-item">
-				<button data-select-item>Web design</button>
-			    </li>
-
-			    <li class="select-item">
-				<button data-select-item>Applications</button>
-			    </li>
-
-			    <li class="select-item">
-				<button data-select-item>Web development</button>
-			    </li>
-
-			</ul>
-
-		    </div>
-
-		    <ul class="project-list">
-
-			<li class="project-item  active" data-filter-item data-category="web development">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">Finance</h3>
-
-				<p class="project-category">Web development</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="web development">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">Orizon</h3>
-
-				<p class="project-category">Web development</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="web design">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">Fundo</h3>
-
-				<p class="project-category">Web design</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="applications">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">Brawlhalla</h3>
-
-				<p class="project-category">Applications</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="web design">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-				</figure>
-
-				<h3 class="project-title">DSM.</h3>
-
-				<p class="project-category">Web design</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="web design">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">MetaSpark</h3>
-
-				<p class="project-category">Web design</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="web development">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">Summary</h3>
-
-				<p class="project-category">Web development</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="applications">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">Task Manager</h3>
-
-				<p class="project-category">Applications</p>
-
-			    </a>
-			</li>
-
-			<li class="project-item  active" data-filter-item data-category="web development">
-			    <a href="#">
-
-				<figure class="project-img">
-				    <div class="project-item-icon-box">
-					<ion-icon name="eye-outline"></ion-icon>
-				    </div>
-
-				    <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-				</figure>
-
-				<h3 class="project-title">Arrival</h3>
-
-				<p class="project-category">Web development</p>
-
-			    </a>
-			</li>
-
-		    </ul>
-
-		</section>
-
-	    </article>
+			<header>
+				<h2 class="h2 article-title">Portfolio</h2>
+			</header>
+	
+			<section class="projects">
+	
+				<ul class="filter-list">
+	
+				<li class="filter-item">
+					<button class="active" data-filter-btn>All</button>
+				</li>
+	
+				<li class="filter-item">
+					<button data-filter-btn>Web design</button>
+				</li>
+	
+				<li class="filter-item">
+					<button data-filter-btn>Applications</button>
+				</li>
+	
+				<li class="filter-item">
+					<button data-filter-btn>Web development</button>
+				</li>
+	
+				</ul>
+	
+				<div class="filter-select-box">
+	
+				<button class="filter-select" data-select>
+	
+					<div class="select-value" data-selecct-value>Select category</div>
+	
+					<div class="select-icon">
+					<ion-icon name="chevron-down"></ion-icon>
+					</div>
+	
+				</button>
+	
+				<ul class="select-list">
+	
+					<li class="select-item">
+					<button data-select-item>All</button>
+					</li>
+	
+					<li class="select-item">
+					<button data-select-item>Web design</button>
+					</li>
+	
+					<li class="select-item">
+					<button data-select-item>Applications</button>
+					</li>
+	
+					<li class="select-item">
+					<button data-select-item>Web development</button>
+					</li>
+	
+				</ul>
+	
+				</div>
+	
+				<ul class="project-list">
+	
+				<li class="project-item  active" data-filter-item data-category="web development">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">Finance</h3>
+	
+					<p class="project-category">Web development</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="web development">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">Orizon</h3>
+	
+					<p class="project-category">Web development</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="web design">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">Fundo</h3>
+	
+					<p class="project-category">Web design</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="applications">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">Brawlhalla</h3>
+	
+					<p class="project-category">Applications</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="web design">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">DSM.</h3>
+	
+					<p class="project-category">Web design</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="web design">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">MetaSpark</h3>
+	
+					<p class="project-category">Web design</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="web development">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">Summary</h3>
+	
+					<p class="project-category">Web development</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="applications">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">Task Manager</h3>
+	
+					<p class="project-category">Applications</p>
+	
+					</a>
+				</li>
+	
+				<li class="project-item  active" data-filter-item data-category="web development">
+					<a href="#">
+	
+					<figure class="project-img">
+						<div class="project-item-icon-box">
+						<ion-icon name="eye-outline"></ion-icon>
+						</div>
+	
+						<img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+					</figure>
+	
+					<h3 class="project-title">Arrival</h3>
+	
+					<p class="project-category">Web development</p>
+	
+					</a>
+				</li>
+	
+				</ul>
+	
+			</section>
+	
+			</article>
 
 	    <!--#endregion-->
-
-	    <!--#region #BLOG-->
-
-	    <article class="blog" data-page="blog">
-
-		<header>
-		    <h2 class="h2 article-title">Blog</h2>
-		</header>
-
-		<section class="blog-posts">
-
-		    <ul class="blog-posts-list">
-
-			<li class="blog-post-item">
-			    <a href="#">
-
-				<figure class="blog-banner-box">
-				    <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-				</figure>
-
-				<div class="blog-content">
-
-				    <div class="blog-meta">
-					<p class="blog-category">Design</p>
-
-					<span class="dot"></span>
-
-					<time datetime="2022-02-23">Fab 23, 2022</time>
-				    </div>
-
-				    <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-				    <p class="blog-text">
-					Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-				    </p>
-
-				</div>
-
-			    </a>
-			</li>
-
-			<li class="blog-post-item">
-			    <a href="#">
-
-				<figure class="blog-banner-box">
-				    <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-				</figure>
-
-				<div class="blog-content">
-
-				    <div class="blog-meta">
-					<p class="blog-category">Design</p>
-
-					<span class="dot"></span>
-
-					<time datetime="2022-02-23">Fab 23, 2022</time>
-				    </div>
-
-				    <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-				    <p class="blog-text">
-					Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-				    </p>
-
-				</div>
-
-			    </a>
-			</li>
-
-			<li class="blog-post-item">
-			    <a href="#">
-
-				<figure class="blog-banner-box">
-				    <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-				</figure>
-
-				<div class="blog-content">
-
-				    <div class="blog-meta">
-					<p class="blog-category">Design</p>
-
-					<span class="dot"></span>
-
-					<time datetime="2022-02-23">Fab 23, 2022</time>
-				    </div>
-
-				    <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-				    <p class="blog-text">
-					Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-				    </p>
-
-				</div>
-
-			    </a>
-			</li>
-
-			<li class="blog-post-item">
-			    <a href="#">
-
-				<figure class="blog-banner-box">
-				    <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-				</figure>
-
-				<div class="blog-content">
-
-				    <div class="blog-meta">
-					<p class="blog-category">Design</p>
-
-					<span class="dot"></span>
-
-					<time datetime="2022-02-23">Fab 23, 2022</time>
-				    </div>
-
-				    <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-				    <p class="blog-text">
-					Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-				    </p>
-
-				</div>
-
-			    </a>
-			</li>
-
-			<li class="blog-post-item">
-			    <a href="#">
-
-				<figure class="blog-banner-box">
-				    <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-				</figure>
-
-				<div class="blog-content">
-
-				    <div class="blog-meta">
-					<p class="blog-category">Design</p>
-
-					<span class="dot"></span>
-
-					<time datetime="2022-02-23">Fab 23, 2022</time>
-				    </div>
-
-				    <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-				    <p class="blog-text">
-					Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-				    </p>
-
-				</div>
-
-			    </a>
-			</li>
-
-			<li class="blog-post-item">
-			    <a href="#">
-
-				<figure class="blog-banner-box">
-				    <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-				</figure>
-
-				<div class="blog-content">
-
-				    <div class="blog-meta">
-					<p class="blog-category">Design</p>
-
-					<span class="dot"></span>
-
-					<time datetime="2022-02-23">Fab 23, 2022</time>
-				    </div>
-
-				    <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-				    <p class="blog-text">
-					Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-				    </p>
-
-				</div>
-
-			    </a>
-			</li>
-
-		    </ul>
-
-		</section>
-
-	    </article>
-
-	    <!--#endregion-->
-
 	    <!--#region #CONTACT-->
 
 	    <article class="contact" data-page="contact">
@@ -1191,7 +1309,7 @@
 
 		<section class="mapbox" data-mapbox>
 		    <figure>
-			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+			<iframe src="https://www.google.com/maps/place/PWF8%2BGPC,+Dhulikhel+Sindhuli+Bhittamod+Rajmarg,+Janakpur+45600/@26.7240662,85.9167351,20z/data=!4m15!1m8!3m7!1s0x39ec4005fb138bb9:0x533a64cf0e13c2d1!2sJanakpur!3b1!8m2!3d26.7271466!4d85.9406745!16s%2Fm%2F02z3mgm!3m5!1s0x39ec4010e3e0626b:0x6d07519185516627!8m2!3d26.7238194!4d85.9167385!16s%2Fg%2F11jmyypryj"
 				width="400" height="300" loading="lazy"></iframe>
 		    </figure>
 		</section>
@@ -1233,14 +1351,15 @@
     <script src="./assets/js/script.js"></script>
 
     <!--#region ionicon link-->
-    
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
-    <!--#endregion -->
 
+    <!--#endregion -->
     <!--#endregion-->
 
 </body>
+
+<!-- #endregion -->
 
 </html>
